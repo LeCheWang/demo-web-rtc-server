@@ -1,4 +1,4 @@
-const socket = io.connect('localhost:5010');
+const socket = io.connect('https://meet.phongthuytaman.com');
 
 function openStream() {
   const config = { audio: false, video: true };
